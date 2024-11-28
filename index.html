@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Dr sunil kumar sharma</title>
+        <link rel="shortcut icon" type="imag" href="Asset 2.svg"/>
+        <link rel="stylesheet" type="text/css" target="_blank" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+      </head>
+<body>
+    
+    <div class="preloader"></div>
+    
+    <nav>
+      <div class="logo">
+        <img src="Asset 2.svg" alt="logo" />
+        <h1></h1>
+      </div>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./About.html">About</a>
+        </li>
+        <li>
+          <a href="./index.html">Speeches</a>
+        </li>
+        <li>
+          <a href="./Gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="#timeline">News</a>
+        </li> 
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./About.html">About</a>
+        </li>
+        <li>
+          <a href="#speech">Speeches</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#timeline">News</a>
+        </li> 
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+<!-- Image Slider -->
+<div class="slider">
+ 
+
+    <div class="slide active">
+        <img src="./Gallery/Gallery2.jpg" alt="Education Campaign">
+        <div class="content">
+            <h2>शिक्षा, स्वास्थ्य र समृद्धिका लागि न्याय र समानतामूलक अभियान।</h2>
+            <button class="slide-button" onclick="playVideo('example1')">Play Video</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="./Gallery/Gallery3.jpg" alt="Leadership Development">
+        <div class="content">
+            <h2>नेतृत्व विकास र स्थिरतासहित समृद्ध समाजको निर्माण।</h2>
+            <button class="slide-button" onclick="playVideo('example2')">Play Video</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="./Gallery/Gallery4.jpg" alt="Clean Politics">
+        <div class="content">
+            <h2>स्वच्छ राजनीति, दिगो विकास।</h2>
+            <button class="slide-button" onclick="playVideo('example3')">Play Video</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are dedicated to building a better future through education, leadership, and clean politics. Join our mission for sustainable development.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +977-123456789</p>
+                <p>Address: Kathmandu, Nepal</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Your Organization Name. All rights reserved.
+        </div>
+    </footer>    
+
+
+    <!-- Modal for YouTube Video -->
+    <div id="videoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
+        <div style="position:relative; width:80%; max-width:800px; aspect-ratio:16/9;">
+            <iframe id="youtubePlayer" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <button onclick="closeVideo()" style="position:absolute; top:10px; right:10px; background:red; color:white; border:none; padding:10px; cursor:pointer;">Close</button>
+        </div>
+    </div>
+
+
+  
+
+<script src="style.js"></script>
+
+</body>
+</html>
